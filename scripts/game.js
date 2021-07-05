@@ -8,7 +8,7 @@ class Game {
     constructor(container, rules, onLevelInitializedCallback = null) {
         this.container = container;
         this.rules = rules;
-        this.onLevelInitialized = onLevelInitializedCallback;
+        this.onLevelInitialized = onLevelInitializedCallback; 
 
         this._prepareRenderingContext();
 
